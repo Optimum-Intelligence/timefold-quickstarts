@@ -1,0 +1,8 @@
+services:
+  order-picking-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: order-picking-api:1.0-SNAPSHOT
+    ports:
+      - "8080:8080"
